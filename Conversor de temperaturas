@@ -1,0 +1,7 @@
+print('Ola! Eu sou o seu conversor de temperaturas!!!')  #interação
+celsius =float(input('Digite a temperatura em graus Celsius: '))  #para a digitação da temperatura em graus celsius/numero real
+
+fahreinheit = celsius * 1.8 + 32 #fórmula para conversão em fahreinheit
+kelvin = celsius + 273.15  #fórmula para conversão em kelvin
+
+print(f'A temperatura de {celsius}C°, em Fahreinheit é {fahreinheit}F° , e Kelvin {kelvin}K.')
