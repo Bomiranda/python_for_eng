@@ -1,0 +1,11 @@
+#Programa para calculo de fatorial
+
+Resultado=1    #variavel
+
+print('Olá caro aluno(a), esta com dificuldade?!')  #interação
+Fatorial = int(input("Digite o valor que deseja obter o fatorial: "))  #para digitar o numero para se obter o fatorial
+
+for n in range(1,Fatorial +1): #range para ir apartir de 1, ate o numero digitado
+    Resultado *= n  #para se multiplicar os numeros subsequentes pelo resultado
+
+print (f'O fatorial de {Fatorial} é {Resultado} .')
